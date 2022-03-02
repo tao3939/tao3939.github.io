@@ -244,3 +244,42 @@ body {
 .pro1-wrapper {
   text-align: center;
 }
+
+.fashion {
+  text-align: center;
+}
+
+.fashion h2 {
+  font-size: 25px;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: Gill Sans, sans-serif;
+}
+
+.fashion a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 30px;
+}
+
+.fashion a:hover {
+  text-decoration: line-through;
+}
+
+.style {
+  text-align: center;
+}
+
+.style h2 {
+  font-size: 25px;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: Gill Sans, sans-serif;
+}
