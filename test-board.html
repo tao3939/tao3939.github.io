@@ -13,25 +13,43 @@
 		justify-content: start;
 		align-items: center;
 		flex-wrap: wrap;
-		width: 72%;
-		max-width: 1200px;
+		width: 100%;
+		/* max-width: 1200px; */
 	}
 
 	.pinterest>.pic {
-		width: 240px;
-		height: 240px;
+		width:  CALC(20% - 8px);
+		height: 200px;
 		display: block;
 		margin: 4px;
 		border-radius: 4px;
+		/* transform: rotate(20deg); */
 	}
 </style>
 
 <body>
 
+	<div class="header">
+    <div class="header-logo">T A O .</div>
+    <div class="header-list">
+      <ul>
+        <li><a href="./index.html">home</a></li>
+        <li><a href="./about.html">about</a></li>
+        <li><a href="./fashion.html">lookbook</a></li>
+        <li><a href="./story.html">work</a></li>
+      </ul>
+    </div>
+  </div>
+
+	<div class="about">
+    <h2>MOODBOARD</h2>
+	</div>
+
+	<div class="about">
 	<div class="container-item container-item-lead">
 		<div class="container-item-text theory-text">
       <h1 class="pinterest-title"></h1>
-    <p>This is my moodboard</p>
+    <p>bags</p>
 		</div>
 		<div class="pinterest group"></div>
 	</div>
@@ -39,7 +57,7 @@
 	<div class="container-item container-item-lead">
 		<div class="container-item-text theory-text">
       <h1 class="pinterest-title"></h1>
-			<p> this is my moodboard</p>
+			<p>arts</p>
 		</div>
 		<div class="pinterest group"></div>
 	</div>
@@ -47,9 +65,10 @@
 	<div class="container-item container-item-lead">
 		<div class="container-item-text theory-text">
       <h1 class="pinterest-title"></h1>
-			<p>moodboard</p>
+			<p>clothes</p>
 		</div>
 		<div class="pinterest group"></div>
+	</div>
 	</div>
 
 	<footer> </footer>
@@ -81,7 +100,7 @@
 		}
 		// viewJSON();
 		container.forEach((container, index) => {
-			const boards = ["bag", "art", "fashion", "accessory"];
+			const boards = ["accessory", "bag", "art", "fashion" ];
 			container.appendChild(list[index])
 			viewJSON(boards, index)
 		});
