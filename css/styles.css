@@ -284,3 +284,10 @@ body {
   padding-bottom: 20px;
   font-family: Gill Sans, sans-serif;
 }
+
+.workfashion {
+  height: 350px;
+  width: 250px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
