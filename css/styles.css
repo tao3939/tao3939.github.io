@@ -293,6 +293,8 @@ body {
 }
 
 .style img {
-  width: 300px;
+  width: 400px;
   height: 400px;
+  padding-bottom: 30px;
 }
+
