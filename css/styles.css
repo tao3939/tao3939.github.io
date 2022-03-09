@@ -224,10 +224,10 @@ body {
 }
 
 .pro2 {
-  width: 280px;
-  height: 450px;
-  padding-top: 50px;
-  padding-bottom: 30px;
+  width: 80%;
+  /* height: 450px; */
+  padding-top: 12px;
+  padding-bottom: 8px;
 }
 
 .work a {
