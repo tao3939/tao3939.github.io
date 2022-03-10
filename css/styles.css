@@ -225,9 +225,22 @@ body {
 
 .pro2 {
   width: 80%;
-  /* height: 450px; */
+  max-width: 800px;
   padding-top: 12px;
   padding-bottom: 8px;
+  margin: auto;
+}
+
+.iphone {
+  height: 80vh;
+  width: auto;
+}
+
+.thumbnail {
+  height: 360px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+
 }
 
 .work a {
