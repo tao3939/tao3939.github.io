@@ -10,9 +10,9 @@ body {
 p {
   max-width: 600px;
   margin: auto;
-  color: #767676;
+  color: black;
   line-height: 1.2em;
-  padding-bottom: 52px;
+  padding-bottom: 60px;
 }
 
 
@@ -324,4 +324,3 @@ p {
 .pro2 p {
   padding-bottom: 100px;
 }
-
