@@ -241,6 +241,7 @@ p {
 .iphone {
   height: 80vh;
   width: auto;
+  padding-bottom: 60px;
 }
 
 .thumbnail {
@@ -329,4 +330,10 @@ p {
   line-height: 1.2em;
   padding-bottom: 80px;
   color: rgb(42, 42, 42);
+}
+
+.protext {
+  line-height: 1.2em;
+  color: rgb(42, 42, 42);
+  padding-top: 30px;
 }
