@@ -337,3 +337,7 @@ p {
   color: rgb(42, 42, 42);
   padding-top: 30px;
 }
+
+h3 {
+  padding: 10px;
+}
