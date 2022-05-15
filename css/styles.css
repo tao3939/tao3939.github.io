@@ -335,7 +335,6 @@ p {
 .protext {
   line-height: 1.2em;
   color: rgb(42, 42, 42);
-  padding-top: 30px;
 }
 
 h3 {
@@ -347,5 +346,6 @@ h3 {
 } */
 
 .pro2 {
-  padding-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
